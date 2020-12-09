@@ -9,7 +9,7 @@ const Comment: Schema = new Schema ({
 });
 
 const pubSchema:ICustomSchema = {
-   collection: 'bars',
+   collection: 'pubs',
    definition: new Schema({
       name: { type:String, required:true },
       description: { type:String, required:false },
@@ -20,5 +20,6 @@ const pubSchema:ICustomSchema = {
       comments: { type: [Comment], required:false }
    })
 };
+
 
 export default pubSchema;
