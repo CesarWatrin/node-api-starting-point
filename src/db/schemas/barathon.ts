@@ -12,5 +12,4 @@ const barathonSchema:ICustomSchema = {
    })
 };
 
-
 export default barathonSchema;
